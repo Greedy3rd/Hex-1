@@ -151,7 +151,7 @@ int main(int argc, char *argv[])
     SDLKey key_pressed;
     while (continuer)
     {
-        while (SDL_PollEvent(&event))
+        while (SDL_PollEvent(&event)) 
         {
 			SDL_FillRect(ecran,&posCurseur,32);
             switch (event.type)
